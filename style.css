@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: rgb(241, 218, 186);
+  padding: 20px;
+  line-height: 2;
+}
+
+.container {
+  margin: auto;
+  max-width: 700px;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba (0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.recipe-image {
+  border-radius: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.description {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.prep-time {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: #f5dee4;
+  padding: 40px;
+}
+.prep-time h3 {
+  color: #833247;
+  margin-bottom: 10px ;
+}
+ul, ol{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.ingredients li,
+ .instructions li{
+  margin-bottom: 10px;
+}
+
+.brown-title{
+  color: brown;
+}
+.nutrition{
+  width:100%;
+  border-collapse:collapse ;
+  margin-top: 10px ;
+}
+
+.nutrition td{
+padding: 10px;
+border-bottom:1px solid #ddd ;
+}
+.brown-list li::marker{
+color: brown;
+}
+
+/* I love this! 
+😉 */
+
+/* let me go throught your code  */
+
+/* have you downloaded git before?
+no
+I want to push your code to github, so vercel can help host it
+*/
